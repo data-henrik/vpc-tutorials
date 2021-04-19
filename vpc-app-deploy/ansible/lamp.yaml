@@ -1,4 +1,4 @@
-- hosts: FRONT_NIC_IP BACK_NIC_IP
+- hosts: FRONTNICIP BACKNICIP
   remote_user: root
   tasks:
   - name: Stop apt-daily.* systemd services
